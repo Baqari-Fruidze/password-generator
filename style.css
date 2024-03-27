@@ -9,10 +9,36 @@ html {
 body {
   font-family: "JetBrains Mono", monospace;
   padding: 6.4rem 1.6rem 6.3rem 1.6rem;
+  background: linear-gradient(180deg, #14131b 0%, #08070b 100%);
+}
+h1 {
+  color: #817d92;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header {
+  margin-bottom: 1.6rem;
+}
+.pasword-con {
+  padding: 1.7rem 1.5rem 1.5rem 1.6rem;
+  background: var(--Dark-Grey, #24232c);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.top-password {
+  color: var(--Almost-White, #e6e5ea);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 section {
   padding: 2.1rem 1.6rem 1.6rem 1.6rem;
-}
-.btn {
-  background: var(--Neon-Green, #a4ffaf);
+  background: var(--Dark-Grey, #24232c);
 }
