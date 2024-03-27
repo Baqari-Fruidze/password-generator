@@ -39,6 +39,92 @@ header {
   line-height: normal;
 }
 section {
-  padding: 2.1rem 1.6rem 1.6rem 1.6rem;
+  padding: 1.6rem 1.6rem 1.6rem 1.6rem;
   background: var(--Dark-Grey, #24232c);
+}
+.length-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.char-length {
+  color: var(--Almost-White, #e6e5ea);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+.ten {
+  color: var(--Neon-Green, #a4ffaf);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "JetBrains Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.range {
+  width: 100%;
+  margin-bottom: 4.2rem;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+.check {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.lbl {
+  color: var(--Almost-White, #e6e5ea);
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.strength-con {
+  background: #18171f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.strength {
+  color: var(--Grey, #817d92);
+  text-align: left;
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.medium-span {
+  color: var(--Almost-White, #e6e5ea);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "JetBrains Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn {
+  background: var(--Neon-Green, #a4ffaf);
+  color: var(--Dark-Grey, #24232c);
+  text-align: center;
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  background-image: url(./images/icon-arrow-right.svg);
+  padding: 1.8rem 0;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: left 20.5rem top 2.2rem;
 }
