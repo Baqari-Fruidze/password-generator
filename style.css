@@ -10,6 +10,8 @@ body {
   font-family: "JetBrains Mono", monospace;
   padding: 6.4rem 1.6rem 6.3rem 1.6rem;
   background: linear-gradient(180deg, #14131b 0%, #08070b 100%);
+  max-width: 50rem;
+  margin: 0 auto;
 }
 h1 {
   color: #817d92;
@@ -90,7 +92,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.6rem;
+  padding: 1.4rem 1.6rem;
   margin-bottom: 1.6rem;
 }
 .strength {
@@ -127,4 +129,18 @@ section {
   border: none;
   background-repeat: no-repeat;
   background-position: left 20.5rem top 2.2rem;
+}
+.on {
+  display: flex;
+  gap: 0.8rem;
+}
+.light {
+  height: 2.8rem;
+  width: 1rem;
+  background: var(--3---Yellow, #f8cd65);
+}
+.bottom-con {
+  align-items: center;
+  display: flex;
+  gap: 1.6rem;
 }
