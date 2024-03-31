@@ -36,6 +36,8 @@ header {
   margin-bottom: 1.6rem;
 }
 .top-password {
+  border: none;
+  background: var(--Dark-Grey, #24232c);
   color: var(--Almost-White, #e6e5ea);
   font-feature-settings: "clig" off, "liga" off;
   font-size: 24px;
@@ -69,28 +71,7 @@ section {
   font-weight: 700;
   line-height: normal;
 }
-/* .range {
-  -webkit-appearance: none;
-  height: 13px;
-  border-radius: 5px;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: 0.2s;
-  transition: opacity 0.2s;
-  width: 100%;
-  margin-bottom: 4.2rem;
-  background: var(--Neon-Green, #a4ffaf);
-}
-.range::-webkit-slider-thumb {
-  border-radius: 40px;
-  background: #fff;
-  -webkit-appearance: none;
-  appearance: none;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  cursor: pointer;
-} */
+
 .range {
   width: 100%;
   -webkit-appearance: none;
@@ -201,6 +182,15 @@ section {
   display: flex;
   gap: 1.6rem;
 }
+.input {
+  width: 20px;
+  height: 20px;
+  accent-color: #a4ffaf;
+}
+.input:checked {
+  accent-color: #a4ffaf;
+}
+
 @media (min-width: 48rem) {
   body {
     padding: 13.3rem 11.4rem 19.6rem 11.4rem;
