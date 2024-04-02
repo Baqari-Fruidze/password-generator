@@ -77,7 +77,7 @@ section {
   -webkit-appearance: none;
   height: 8px;
   outline: none;
-  opacity: 0.7;
+  opacity: 0.9;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
   margin-bottom: 4.2rem;

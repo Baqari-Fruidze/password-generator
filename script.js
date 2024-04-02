@@ -20,7 +20,7 @@ const generate = document.querySelector(".btn");
 const slider = document.querySelector(".range");
 const span = document.querySelector(".ten");
 
-let value = 10;
+let value = 9;
 slider.addEventListener("change", () => {
   span.textContent = slider.value;
   value = slider.value;
